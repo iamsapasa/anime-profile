@@ -7,13 +7,8 @@ https://jikan.docs.apiary.io/#reference/0/user
 sample GET, https://api.jikan.moe/v3/user/Akiimai/animelist/all
 
 
-# step 1 create project
-npx create-react-app malpro
-cd malpro
+npx create-react-app my-app
+cd my-app
 npm start
-
-# step 2, add a ui lib for the layout
-npm install @material-ui/core
-
 
 
