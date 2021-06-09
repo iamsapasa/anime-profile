@@ -56,7 +56,16 @@ axios.get(`https://api.jikan.moe/v3/user/${username}/animelist/all`)
     console.log('response recieved', response)
     });
 ```
-This is how you use `.map()` over an array
+
+This is how you use `Object.entries` over an array
+```
+Object.entries(a).map(([key, value]) => {
+    // Pretty straightforward - use key for the key and value for the value.
+    // Just to clarify: unlike object destructuring, the parameter names don't matter here.
+})
+```
+
+This is how you use `.map()` over an array, this method expects a call back with each return
 ```
 const names = ["whale", "squid", "turtle", "coral", "starfish"];
 
